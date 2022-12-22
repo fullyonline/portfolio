@@ -1,9 +1,9 @@
 import React from 'react';
 
-export function Contact(): JSX.Element {
+export function Projects(): JSX.Element {
     return (
         <div>
-            <p>Contact</p>
+            <p>Projects</p>
         </div>
     );
 }

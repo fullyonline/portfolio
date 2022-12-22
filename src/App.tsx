@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import { Home } from './Home';
 import { Layout } from './Layout';
 import { About } from './About';
-import { Contact } from './Contact';
+import { Projects } from './Projects';
 import { NoMatch } from './NoMatch';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Home />} />
                     <Route path="about" element={<About />} />
-                    <Route path="contact" element={<Contact />} />
+                    <Route path="projects" element={<Projects />} />
                     <Route path="*" element={<NoMatch />} />
                 </Route>
             </Routes>
