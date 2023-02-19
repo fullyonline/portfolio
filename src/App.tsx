@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import { Home } from './Home';
+import { Home } from './components/Home';
 import { Layout } from './Layout';
-import { Projects } from './Projects';
-import { NoMatch } from './NoMatch';
+import { Projects } from './components/Projects';
+import { NoMatch } from './components/NoMatch';
 import { Box } from '@mui/material';
 
 function App() {

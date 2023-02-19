@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Card, Typography } from '@mui/material';
-import { flexbox, innerFlexbox, portrait } from './styles/styles';
+import { flexbox, innerFlexbox, portrait } from '../styles/styles';
 
 export function Home(): JSX.Element {
     return (

@@ -4,9 +4,15 @@ export const flexbox = css`
     display: flex;
     justify-content: center;
 `;
+
 export const flexboxRight = css`
     display: flex;
     justify-content: right;
+`;
+
+export const flexboxLeft = css`
+    display: flex;
+    justify-content: left;
 `;
 
 export const innerFlexbox = css`
@@ -19,6 +25,10 @@ export const innerFlexbox = css`
 export const portrait = css`
     border-radius: 50%;
     width: 20%;
+`;
+
+export const githubLogo = css`
+    width: 2rem;
 `;
 
 export const linkCssClass = css`
