@@ -5,6 +5,7 @@ export const theme = createTheme({
         MuiCard: {
             styleOverrides: {
                 root: {
+                    width: '100%',
                     borderRadius: '10px',
                     padding: '1rem',
                 },

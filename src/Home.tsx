@@ -6,12 +6,10 @@ export function Home(): JSX.Element {
     return (
         <Box className={flexbox}>
             <Card className={innerFlexbox}>
-                <Typography variant={'h1'}>Romano Sabbatella</Typography>
+                <Typography variant={'h2'}>Romano Sabbatella</Typography>
                 <img src="portrait.jpg" className={portrait} alt={'Portrait von Romano Sabbatella'} />
-                <Box>
-                    <Typography variant={'h6'}>Fullstack Web Developer</Typography>
-                    <Typography>im Gesundheitswesen</Typography>
-                </Box>
+                <Typography variant={'h4'}>Fullstack Web Developer</Typography>
+                <Typography variant={'h5'}>im Gesundheitswesen</Typography>
             </Card>
         </Box>
     );
