@@ -3,7 +3,7 @@ import React from 'react';
 export function NoMatch(): JSX.Element {
     return (
         <div>
-            <p>Nothing to see here :) </p>
+            <h2>Nothing to see here :) </h2>
         </div>
     );
 }
