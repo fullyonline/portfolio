@@ -10,7 +10,7 @@ export function NoMatch(): JSX.Element {
     return (
         <Box className={cx(flexbox, style)}>
             <Card className={innerFlexbox}>
-                <Typography variant={'h2'}>👇 Nichts zu sehen ausser den hier 👇</Typography>
+                <Typography variant={'h2'}>👇 Nichts zu sehen ausser dem hier 👇</Typography>
             </Card>
         </Box>
     );

@@ -1,5 +1,9 @@
 import { css } from '@emotion/css';
 
+export const fullWidth = css`
+    width: 100%;
+`;
+
 export const flexbox = css`
     display: flex;
     justify-content: center;
@@ -13,6 +17,7 @@ export const flexboxRight = css`
 export const flexboxLeft = css`
     display: flex;
     justify-content: left;
+    align-items: flex-start;
 `;
 
 export const innerFlexbox = css`
@@ -40,5 +45,5 @@ export const linkCssClass = css`
 `;
 
 export const contentContainer = css`
-    width: 55%;
+    width: 70%;
 `;

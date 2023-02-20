@@ -30,4 +30,17 @@ export const projects: ProjectType[] = [
         description:
             'Dieser BMI Rechner basiert auf einer Android-App und sollte uns beibringen wie man mit Multi-Platform-Frameworks arbeitet.',
     },
+    {
+        name: 'BMI Rechner - Java',
+        type: PROJECT_TYPE_TYPE.school,
+        url: 'https://github.com/fullyonline/BMIApp',
+        programminglanguages: ['Java', 'Android Studio'],
+        keypoints: [
+            'Arbeit des Faches Software Engineering Mobile',
+            'Arbeiten mit Localstorage',
+            'Arbeiten mit Localisation',
+            'Vorlage für Flutter-BMI-Rechner',
+        ],
+        description: 'Dieser BMI Rechner bildet die Basis auf welcher eine Flutter-App entwickelt wurde.',
+    },
 ];

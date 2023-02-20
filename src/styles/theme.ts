@@ -12,9 +12,12 @@ export const theme = createTheme({
         MuiCard: {
             styleOverrides: {
                 root: {
-                    width: '100%',
                     borderRadius: '10px',
-                    padding: '1rem',
+                    paddingTop: '2rem',
+                    paddingBottom: '2rem',
+                    paddingLeft: '5rem',
+                    paddingRight: '5rem',
+                    marginBottom: '2rem',
                 },
             },
         },
