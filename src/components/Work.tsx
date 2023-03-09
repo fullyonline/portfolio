@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Card, CardContent, Chip, Typography } from '@mui/material';
 import { flexboxLeft, fullWidth, innerFlexbox } from '../styles/styles';
 import { WorkData } from '../data/work';
+import { css } from '@emotion/css';
 
 export function Work(): JSX.Element {
     return (
@@ -11,7 +12,9 @@ export function Work(): JSX.Element {
                     <Card key={work.company}>
                         <CardContent>
                             <Box className={innerFlexbox}>
-                                <Typography variant={'h4'}>{work.positionDescription}</Typography>
+                                <Typography variant={'h4'}>
+                                    {work.positionDescription} - {work.company}
+                                </Typography>
                             </Box>
                             <Box>
                                 <Typography>
@@ -27,8 +30,15 @@ export function Work(): JSX.Element {
                                     {work.programminglanguages.map((lang) => {
                                         return <Chip key={lang} label={lang} variant="outlined" />;
                                     })}
+                                </Box>
+                                <Box
+                                    className={css`
+                                        margin-top: 1rem;
+                                        width: max-content;
+                                    `}
+                                >
                                     <a href={work.url} target="_blank" rel="noreferrer noopener">
-                                        <Typography>{work.company}</Typography>
+                                        <Typography variant={'h6'}>Webseite</Typography>
                                     </a>
                                 </Box>
                             </Box>

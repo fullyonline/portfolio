@@ -6,6 +6,7 @@ import { Layout } from './Layout';
 import { Projects } from './components/Projects';
 import { NoMatch } from './components/NoMatch';
 import { Box } from '@mui/material';
+import { Work } from './components/Work';
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                     <Route path="/" element={<Layout />}>
                         <Route index element={<Home />} />
                         <Route path="projects" element={<Projects />} />
+                        <Route path="work" element={<Work />} />
                         <Route path="*" element={<NoMatch />} />
                     </Route>
                 </Routes>
