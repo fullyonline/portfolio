@@ -25,6 +25,9 @@ export function Layout(): JSX.Element {
                     <Link className={linkCssClass} to="/work">
                         Arbeit
                     </Link>
+                    <Link className={linkCssClass} to="/impressum">
+                        Impressum
+                    </Link>
                 </Box>
                 <Particles id="tsparticles" init={particlesInit} options={particleOptions as any} />
                 <Outlet />
