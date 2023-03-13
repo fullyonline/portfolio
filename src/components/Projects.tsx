@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Card, CardContent, Chip, Typography } from '@mui/material';
-import { flexboxLeft, fullWidth, githubLogo, innerFlexbox } from '../styles/styles';
+import { flexboxLeft, fullWidth, imageWidth2, innerFlexbox } from '../styles/styles';
 import { PROJECT_TYPE_TYPE, projects } from '../data/projects';
 
 export function Projects(): JSX.Element {
@@ -32,7 +32,7 @@ export function Projects(): JSX.Element {
                                     })}
                                     {project.url ? (
                                         <a href={project.url} target="_blank" rel="noreferrer noopener">
-                                            <img className={githubLogo} src={'github.svg'} alt={'Github Logo'} />
+                                            <img className={imageWidth2} src={'github.svg'} alt={'Github Logo'} />
                                         </a>
                                     ) : (
                                         <></>
